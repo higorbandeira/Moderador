@@ -6,7 +6,7 @@ using OpenAI.Moderations;
 
 namespace Moderador.Lib.Services
 {
-    public class OpenAI_APIService : IOpenAI_API
+    public class ModeradorService : IModeradorService
     {
         public Task<ClientResult<ModerationResult>> ModerarTexto(ModerarTextoRequest moderarTextoRequest)
         {

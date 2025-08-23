@@ -12,7 +12,7 @@ using OpenAI.Moderations;
 
 namespace Moderador.Lib.interfaces
 {
-    public interface IOpenAI_API
+    public interface IModeradorService
     {
         Task<ClientResult<ModerationResult>> ModerarTexto(ModerarTextoRequest request);
     }
