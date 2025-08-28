@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34825.169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moderador.API", "Moderador.API\Moderador.API.csproj", "{6D857110-E95C-47F0-9ABE-755B9840478D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moderador.Lib", "..\Moderador.Lib\Moderador.Lib.csproj", "{1C5792CE-A9EA-439B-A8B4-81979593FC46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D857110-E95C-47F0-9ABE-755B9840478D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D857110-E95C-47F0-9ABE-755B9840478D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D857110-E95C-47F0-9ABE-755B9840478D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D857110-E95C-47F0-9ABE-755B9840478D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5792CE-A9EA-439B-A8B4-81979593FC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5792CE-A9EA-439B-A8B4-81979593FC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5792CE-A9EA-439B-A8B4-81979593FC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5792CE-A9EA-439B-A8B4-81979593FC46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9ABCA7A0-A745-4901-BE3C-AE91BE0C59F2}
+	EndGlobalSection
+EndGlobal
